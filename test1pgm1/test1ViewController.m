@@ -26,4 +26,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) swapColor:(UIColor *)textColor{
+    
+    
+}
+
+- (IBAction)swap:(id)sender {
+    int color = 1;
+    if (color == 1){
+        [self.myLabel setTextColor:[UIColor greenColor]];
+    }
+    
+    //[self.myLabel setTextColor:[UIColor greenColor]];
+    //[self.myLabel setTextColor:[UIColor redColor]];
+    
+}
 @end
