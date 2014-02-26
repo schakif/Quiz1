@@ -17,6 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.myLabel setTextColor:[UIColor greenColor]];
+    [self.fontLabel setFont:[UIFont systemFontOfSize:20.0]];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -26,19 +28,38 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void) swapColor:(UIColor *)textColor{
+
+- (IBAction)swap:(id)sender {
+    static int color;
+    if (color == 1){
+        color = 0;
+        [self.myLabel setTextColor:[UIColor greenColor]];
+    }
+    else {
+        color = 1;
+        [self.myLabel setTextColor:[UIColor redColor]];
+    }
     
+    static int size;
+    if (size == 1){
+        size = 0;
+        [self.fontLabel setFont:[UIFont systemFontOfSize:20.0]];
+    }
+    else {
+        size = 1;
+        [self.fontLabel setFont:[UIFont systemFontOfSize:10.0]];
+    }
+}
+
+- (IBAction)switch:(id)sender {
+    if (self.hiddenLabel.hidden == YES){
+        self.hiddenLabel.hidden = NO;
+    }
+    else {
+        self.hiddenLabel.hidden = YES;
+    }
     
 }
 
-- (IBAction)swap:(id)sender {
-    int color = 1;
-    if (color == 1){
-        [self.myLabel setTextColor:[UIColor greenColor]];
-    }
-    
-    //[self.myLabel setTextColor:[UIColor greenColor]];
-    //[self.myLabel setTextColor:[UIColor redColor]];
-    
-}
+
 @end

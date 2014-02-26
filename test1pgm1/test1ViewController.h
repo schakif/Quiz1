@@ -9,10 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface test1ViewController : UIViewController
+
 - (IBAction)swap:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *myLabel;
+@property (weak, nonatomic) IBOutlet UILabel *fontLabel;
 
--(void) swapColor: (UIColor *) textColor;
+- (IBAction)switch:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *hiddenLabel;
 
+- (void) setTextColor:(UIColor *) textColor;
 
 @end

@@ -1,31 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Test1 View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="test1ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r1N-Lj-D3V"/>
+                        <viewControllerLayoutGuide type="bottom" id="xF6-cP-wDU"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayi-ja-yfe">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <rect key="frame" x="141" y="67" width="39" height="30"/>
                                 <state key="normal" title="Swap">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="swap:" destination="2" eventType="touchUpInside" id="IVx-sr-dWv"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Color Swap" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtq-Xg-W0K">
+                                <rect key="frame" x="115" y="142" width="90" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Font Size" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJh-qh-2mo">
+                                <rect key="frame" x="124" y="182" width="72" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ujb-gs-TKB">
+                                <rect key="frame" x="136" y="401" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switch:" destination="2" eventType="valueChanged" id="nRV-eX-RpK"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Not Hidden" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cul-72-1B1">
+                                <rect key="frame" x="116" y="465" width="88" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -33,13 +53,21 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wtq-Xg-W0K" firstAttribute="centerX" secondItem="ayi-ja-yfe" secondAttribute="centerX" type="default" id="YTK-fG-pqf"/>
-                            <constraint firstItem="wtq-Xg-W0K" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="bTv-2t-wMg"/>
-                            <constraint firstItem="ayi-ja-yfe" firstAttribute="top" secondItem="3" secondAttribute="top" constant="111" id="bvV-CN-CTd"/>
-                            <constraint firstItem="wtq-Xg-W0K" firstAttribute="top" secondItem="3" secondAttribute="top" constant="214" id="cDr-gL-lsE"/>
+                            <constraint firstItem="iJh-qh-2mo" firstAttribute="centerX" secondItem="ujb-gs-TKB" secondAttribute="centerX" id="Ejk-sU-lAz"/>
+                            <constraint firstItem="cul-72-1B1" firstAttribute="centerX" secondItem="ujb-gs-TKB" secondAttribute="centerX" id="GH8-Mj-kHx"/>
+                            <constraint firstAttribute="bottom" secondItem="cul-72-1B1" secondAttribute="bottom" constant="82" id="PPL-5A-1W0"/>
+                            <constraint firstAttribute="bottom" secondItem="ujb-gs-TKB" secondAttribute="bottom" constant="136" id="Qbt-cv-d4A"/>
+                            <constraint firstItem="ayi-ja-yfe" firstAttribute="top" secondItem="3" secondAttribute="top" constant="67" id="SjP-6Z-cZ3"/>
+                            <constraint firstItem="ujb-gs-TKB" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="Wre-BQ-kNg"/>
+                            <constraint firstItem="wtq-Xg-W0K" firstAttribute="centerX" secondItem="ayi-ja-yfe" secondAttribute="centerX" id="YTK-fG-pqf"/>
+                            <constraint firstItem="iJh-qh-2mo" firstAttribute="top" secondItem="3" secondAttribute="top" constant="182" id="ii9-Ki-hY2"/>
+                            <constraint firstItem="iJh-qh-2mo" firstAttribute="centerX" secondItem="wtq-Xg-W0K" secondAttribute="centerX" id="n2b-AG-KKc"/>
+                            <constraint firstItem="wtq-Xg-W0K" firstAttribute="top" secondItem="3" secondAttribute="top" constant="142" id="pIi-0z-pha"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="fontLabel" destination="iJh-qh-2mo" id="Udo-3Q-JM4"/>
+                        <outlet property="hiddenLabel" destination="cul-72-1B1" id="7pZ-1N-5Tm"/>
                         <outlet property="myLabel" destination="wtq-Xg-W0K" id="u63-9P-Phd"/>
                     </connections>
                 </viewController>
