@@ -36,14 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BFA0D49C1892F77A00324F39 /* test1pgm1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1pgm1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA0D49C1892F77A00324F39 /* Quiz1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA0D49F1892F77A00324F39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFA0D4A11892F77A00324F39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFA0D4A31892F77A00324F39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BFA0D4A71892F77B00324F39 /* test1pgm1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test1pgm1-Info.plist"; sourceTree = "<group>"; };
 		BFA0D4A91892F77B00324F39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFA0D4AB1892F77B00324F39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BFA0D4AD1892F77B00324F39 /* test1pgm1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test1pgm1-Prefix.pch"; sourceTree = "<group>"; };
+		BFA0D4AD1892F77B00324F39 /* Quiz1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quiz1-Prefix.pch"; sourceTree = "<group>"; };
 		BFA0D4AE1892F77B00324F39 /* test1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1AppDelegate.h; sourceTree = "<group>"; };
 		BFA0D4AF1892F77B00324F39 /* test1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1AppDelegate.m; sourceTree = "<group>"; };
 		BFA0D4B11892F77B00324F39 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -52,9 +52,9 @@
 		BFA0D4B81892F77B00324F39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		BFA0D4BA1892F77B00324F39 /* test1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1ViewController.h; sourceTree = "<group>"; };
 		BFA0D4BB1892F77B00324F39 /* test1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1ViewController.m; sourceTree = "<group>"; };
-		BFA0D4C21892F77B00324F39 /* test1pgm1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test1pgm1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA0D4C21892F77B00324F39 /* Quiz1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quiz1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA0D4C31892F77B00324F39 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		BFA0D4CB1892F77B00324F39 /* test1pgm1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test1pgm1Tests-Info.plist"; sourceTree = "<group>"; };
+		BFA0D4CB1892F77B00324F39 /* Quiz1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz1Tests-Info.plist"; sourceTree = "<group>"; };
 		BFA0D4CD1892F77B00324F39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFA0D4CF1892F77B00324F39 /* test1pgm1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1pgm1Tests.h; sourceTree = "<group>"; };
 		BFA0D4D01892F77B00324F39 /* test1pgm1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1pgm1Tests.m; sourceTree = "<group>"; };
@@ -97,8 +97,8 @@
 		BFA0D49D1892F77A00324F39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BFA0D49C1892F77A00324F39 /* test1pgm1.app */,
-				BFA0D4C21892F77B00324F39 /* test1pgm1Tests.octest */,
+				BFA0D49C1892F77A00324F39 /* Quiz1.app */,
+				BFA0D4C21892F77B00324F39 /* Quiz1Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,7 +133,7 @@
 				BFA0D4A71892F77B00324F39 /* test1pgm1-Info.plist */,
 				BFA0D4A81892F77B00324F39 /* InfoPlist.strings */,
 				BFA0D4AB1892F77B00324F39 /* main.m */,
-				BFA0D4AD1892F77B00324F39 /* test1pgm1-Prefix.pch */,
+				BFA0D4AD1892F77B00324F39 /* Quiz1-Prefix.pch */,
 				BFA0D4B11892F77B00324F39 /* Default.png */,
 				BFA0D4B31892F77B00324F39 /* Default@2x.png */,
 				BFA0D4B51892F77B00324F39 /* Default-568h@2x.png */,
@@ -154,7 +154,7 @@
 		BFA0D4CA1892F77B00324F39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BFA0D4CB1892F77B00324F39 /* test1pgm1Tests-Info.plist */,
+				BFA0D4CB1892F77B00324F39 /* Quiz1Tests-Info.plist */,
 				BFA0D4CC1892F77B00324F39 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -163,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFA0D49B1892F77A00324F39 /* test1pgm1 */ = {
+		BFA0D49B1892F77A00324F39 /* Quiz1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFA0D4D41892F77B00324F39 /* Build configuration list for PBXNativeTarget "test1pgm1" */;
+			buildConfigurationList = BFA0D4D41892F77B00324F39 /* Build configuration list for PBXNativeTarget "Quiz1" */;
 			buildPhases = (
 				BFA0D4981892F77A00324F39 /* Sources */,
 				BFA0D4991892F77A00324F39 /* Frameworks */,
@@ -175,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = test1pgm1;
+			name = Quiz1;
 			productName = test1pgm1;
-			productReference = BFA0D49C1892F77A00324F39 /* test1pgm1.app */;
+			productReference = BFA0D49C1892F77A00324F39 /* Quiz1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BFA0D4C11892F77B00324F39 /* test1pgm1Tests */ = {
+		BFA0D4C11892F77B00324F39 /* Quiz1Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFA0D4D71892F77B00324F39 /* Build configuration list for PBXNativeTarget "test1pgm1Tests" */;
+			buildConfigurationList = BFA0D4D71892F77B00324F39 /* Build configuration list for PBXNativeTarget "Quiz1Tests" */;
 			buildPhases = (
 				BFA0D4BD1892F77B00324F39 /* Sources */,
 				BFA0D4BE1892F77B00324F39 /* Frameworks */,
@@ -194,9 +194,9 @@
 			dependencies = (
 				BFA0D4C81892F77B00324F39 /* PBXTargetDependency */,
 			);
-			name = test1pgm1Tests;
+			name = Quiz1Tests;
 			productName = test1pgm1Tests;
-			productReference = BFA0D4C21892F77B00324F39 /* test1pgm1Tests.octest */;
+			productReference = BFA0D4C21892F77B00324F39 /* Quiz1Tests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Steve Chakif";
 			};
-			buildConfigurationList = BFA0D4971892F77A00324F39 /* Build configuration list for PBXProject "test1pgm1" */;
+			buildConfigurationList = BFA0D4971892F77A00324F39 /* Build configuration list for PBXProject "Quiz1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,8 +221,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFA0D49B1892F77A00324F39 /* test1pgm1 */,
-				BFA0D4C11892F77B00324F39 /* test1pgm1Tests */,
+				BFA0D49B1892F77A00324F39 /* Quiz1 */,
+				BFA0D4C11892F77B00324F39 /* Quiz1Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,7 +290,7 @@
 /* Begin PBXTargetDependency section */
 		BFA0D4C81892F77B00324F39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BFA0D49B1892F77A00324F39 /* test1pgm1 */;
+			target = BFA0D49B1892F77A00324F39 /* Quiz1 */;
 			targetProxy = BFA0D4C71892F77B00324F39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -383,9 +383,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "test1pgm1/test1pgm1-Prefix.pch";
+				GCC_PREFIX_HEADER = "test1pgm1/Quiz1-Prefix.pch";
 				INFOPLIST_FILE = "test1pgm1/test1pgm1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Quiz1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,9 +394,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "test1pgm1/test1pgm1-Prefix.pch";
+				GCC_PREFIX_HEADER = "test1pgm1/Quiz1-Prefix.pch";
 				INFOPLIST_FILE = "test1pgm1/test1pgm1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Quiz1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -411,8 +411,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test1pgm1/test1pgm1-Prefix.pch";
-				INFOPLIST_FILE = "test1pgm1Tests/test1pgm1Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "test1pgm1Tests/Quiz1Tests-Info.plist";
+				PRODUCT_NAME = Quiz1Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -428,8 +428,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test1pgm1/test1pgm1-Prefix.pch";
-				INFOPLIST_FILE = "test1pgm1Tests/test1pgm1Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "test1pgm1Tests/Quiz1Tests-Info.plist";
+				PRODUCT_NAME = Quiz1Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -438,7 +438,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFA0D4971892F77A00324F39 /* Build configuration list for PBXProject "test1pgm1" */ = {
+		BFA0D4971892F77A00324F39 /* Build configuration list for PBXProject "Quiz1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFA0D4D21892F77B00324F39 /* Debug */,
@@ -447,21 +447,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFA0D4D41892F77B00324F39 /* Build configuration list for PBXNativeTarget "test1pgm1" */ = {
+		BFA0D4D41892F77B00324F39 /* Build configuration list for PBXNativeTarget "Quiz1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFA0D4D51892F77B00324F39 /* Debug */,
 				BFA0D4D61892F77B00324F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BFA0D4D71892F77B00324F39 /* Build configuration list for PBXNativeTarget "test1pgm1Tests" */ = {
+		BFA0D4D71892F77B00324F39 /* Build configuration list for PBXNativeTarget "Quiz1Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BFA0D4D81892F77B00324F39 /* Debug */,
 				BFA0D4D91892F77B00324F39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
