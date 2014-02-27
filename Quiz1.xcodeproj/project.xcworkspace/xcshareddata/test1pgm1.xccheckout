@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1EEB3B5B-4BBF-4102-BFAD-23EBC643F406</string>
+	<key>IDESourceControlProjectName</key>
+	<string>test1pgm1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7DBF31F8-FA6D-4C8B-A251-FEE4501E5A5D</key>
+		<string>https://github.com/schakif/test1pgm1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>test1pgm1.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7DBF31F8-FA6D-4C8B-A251-FEE4501E5A5D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/schakif/test1pgm1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7DBF31F8-FA6D-4C8B-A251-FEE4501E5A5D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7DBF31F8-FA6D-4C8B-A251-FEE4501E5A5D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>test1pgm1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
